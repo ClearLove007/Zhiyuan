@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.springframework.org/schema/beans/spring-beans.xsd" uri="file:///G:/框架/spring/资料/spring-framework-4.3.10.RELEASE-dist/spring-framework-4.3.10.RELEASE/schema/beans/spring-beans-4.3.xsd"/>
+  <system systemId="http://www.springframework.org/schema/context/spring-context.xsd" uri="file:///G:/Java/spring-framework-5.0.4.RELEASE-schema/context/spring-context.xsd"/>
+  <uri name="http://www.springframework.org/schema/mvc/spring-mvc.xsd" uri="file:///G:/Java/spring-framework-5.0.4.RELEASE-schema/mvc/spring-mvc.xsd"/>
+</catalog>

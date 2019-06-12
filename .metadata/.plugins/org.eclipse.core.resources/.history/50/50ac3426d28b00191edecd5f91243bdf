@@ -1,0 +1,25 @@
+package zhiyuan.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import zhiyuan.model.LiKe1;
+import zhiyuan.model.Result;
+
+@Service
+public class WenKe2Service implements zhiyuan.service.WenKe2Service {
+
+	@Override
+	public List<LiKe1> findAll() {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+	@Override
+	public List<Result> findWenKe2School(int xiancha, int weici, double xishu) {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [21/Apr/2019:17:07:45 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:01 +0800] "GET /P2P/Login.jsp HTTP/1.1" 200 4252
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:02 +0800] "GET /P2P/css/login.css HTTP/1.1" 200 1556
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:04 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:11 +0800] "POST /P2P/customer/login HTTP/1.1" 200 790
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:11 +0800] "GET /P2P/css/home.css HTTP/1.1" 200 543
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:11 +0800] "GET /P2P/img/preview-1.jpg HTTP/1.1" 200 60948
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:14 +0800] "GET /P2P/product/findAllProduct HTTP/1.1" 200 5787
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:15 +0800] "GET /P2P/product/findTwelveMonth HTTP/1.1" 200 3147
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:16 +0800] "GET /P2P/product/findSixMonth HTTP/1.1" 200 3147
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:17 +0800] "GET /P2P/product/findThreeMonth HTTP/1.1" 200 3675
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:18 +0800] "GET /P2P/product/findThreeMonth HTTP/1.1" 200 3675
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:20 +0800] "GET /P2P/product/findAllProduct HTTP/1.1" 200 5787
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:21 +0800] "GET /P2P/customer/personal HTTP/1.1" 200 1754
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:21 +0800] "GET /P2P/css/personal.css HTTP/1.1" 200 1646
+0:0:0:0:0:0:0:1 - - [21/Apr/2019:17:09:26 +0800] "GET /P2P/record/findAllRecord HTTP/1.1" 200 4255

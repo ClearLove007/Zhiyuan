@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="删除 4 个资源" deleteContents="true" description="删除 4 个资源" element1="/rentcar" element2="/springmvc" element3="/ssm" element4="/ssm-test" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1560066045153"/>
+</session>

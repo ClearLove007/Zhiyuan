@@ -1,0 +1,5 @@
+package zhiyuan.service;
+
+public interface LiKe2Service {
+
+}

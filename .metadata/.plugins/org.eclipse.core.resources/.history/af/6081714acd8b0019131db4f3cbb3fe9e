@@ -1,0 +1,5 @@
+package zhiyuan.mapper;
+
+public interface LiKe2Mapper {
+
+}

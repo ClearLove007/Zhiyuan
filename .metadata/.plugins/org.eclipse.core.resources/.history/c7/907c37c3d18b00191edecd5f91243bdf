@@ -1,0 +1,5 @@
+package zhiyuan.service;
+
+public interface WenKe1Service {
+
+}

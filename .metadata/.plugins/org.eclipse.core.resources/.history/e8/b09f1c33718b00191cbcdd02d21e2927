@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zhiyuan.mapper.LiKe1Mapper">
+
+	<!-- 查询所有理科一本学校 -->
+	<select id="findAll" resultType="LiKe1">
+		select * from like1
+	</select>
+
+	<!-- 查询符合条件的理科一本学校 -->
+	<select id="findLiKe1School">
+		
+	</select>
+</mapper>

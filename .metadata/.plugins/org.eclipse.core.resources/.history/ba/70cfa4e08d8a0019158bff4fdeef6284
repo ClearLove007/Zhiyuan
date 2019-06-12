@@ -1,0 +1,23 @@
+package zhiyuan.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import zhiyuan.service.LiKe1Service;
+
+@Controller
+@RequestMapping("/like1")
+public class LiKe1Controller {
+
+	@Autowired
+	private LiKe1Service liKe1Service;
+	
+	//查询所有学校
+	@RequestMapping("/findAll")
+	public String findAll(Model model) {
+		liKe1Service.findAll();
+		return "";
+	}
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>高考志愿查询</title>
+</head>
+<script type=”text/javascript”> 
+　　function test1() { 
+　　　　var num = document.getElementById(“num”).value; 
+　　　　if (num=="") { 
+　　　　　　alert(‘请输入内容’); 
+　　　　　　return false; 
+　　　　} 
+　　　　if (!(/(^[1-9]\d*$)/.test(num))) { 
+　　　　　　alert(‘输入的不是正整数’); 
+　　　　　　return false; 
+　　　　}
+		return true;
+　　} 
+</script> 
+<body>
+	<table>
+		<tr>
+			<td><a href="<%= request.getContextPath()%>/like1/findAll">查询所有理科1本</a></td>
+			<td><label>实力线差1</><input id="num1" type="text"></input></td>
+			<td><label>排名位次</label><input id="num2" type="text"></input></td>
+			<td><label>实力系数1</label><input id="num3" type="text"></input></td>
+		</tr>
+	</table>
+</body>
+</html>

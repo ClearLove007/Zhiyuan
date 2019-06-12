@@ -1,0 +1,11 @@
+package zhiyuan.mapper;
+
+import java.util.List;
+
+import zhiyuan.model.LiKe1;
+
+public interface LiKe1Mapper {
+	
+	//1.查询所有学校
+	public List<LiKe1> findAll();
+}

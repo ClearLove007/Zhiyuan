@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        				   http://www.springframework.org/schema/beans/spring-beans.xsd
+        				   http://www.springframework.org/schema/aop
+        				   http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+       <bean id="userServiceImpl" class="spring_quanbanzidong_daili.copy.UserServiceImpl"></bean>
+       
+       <bean id="proxy" class="spring_quanbanzidong_daili.copy.Proxy_Class"></bean>
+       
+       <bean id="service" class="spring_quanbanzidong_daili.copy.Service"></bean>
+       
+	   <aop:config>
+	   		<aop:pointcut expression="execution(* spring_quanbanzidong_daili.copy.*.*(..))" id="pointcutId"/>
+	   		<aop:advisor advice-ref="proxy" pointcut-ref="pointcutId"/>
+	   </aop:config>
+</beans>

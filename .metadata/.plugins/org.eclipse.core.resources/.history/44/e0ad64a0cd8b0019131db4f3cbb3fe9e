@@ -1,0 +1,23 @@
+package zhiyuan.serviceImpl;
+
+import java.util.List;
+
+import zhiyuan.model.LiKe1;
+import zhiyuan.model.Result;
+import zhiyuan.service.LiKe2Service;
+
+public class LiKe2ServiceImpl implements LiKe2Service {
+
+	@Override
+	public List<LiKe1> findAll() {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+	@Override
+	public List<Result> findLiKe2School(int xiancha, int weici, double xishu) {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+}

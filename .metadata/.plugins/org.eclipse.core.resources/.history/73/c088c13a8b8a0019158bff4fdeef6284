@@ -1,0 +1,7 @@
+package zhiyuan.model;
+
+public class LiKe1 {
+	private int id;
+	private int pid;
+	private String name;
+}

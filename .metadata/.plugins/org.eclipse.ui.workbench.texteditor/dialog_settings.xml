@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="&lt;=" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="&lt;"/>
+			<item value="&gt;"/>
+			<item value="&lt;input type=&quot;text&quot;&gt;&lt;/input&gt;"/>
+			<item value="7%"/>
+			<item value="10%"/>
+			<item value="8%"/>
+			<item value="9%"/>
+			<item value="14%"/>
+			<item value="今年"/>
+			<item value="去年"/>
+			<item value="p2p"/>
+			<item value="提现"/>
+			<item value="spring-mvc-config"/>
+			<item value="forget_pwd"/>
+			<item value="image_logo"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&lt;="/>
+			<item value="&gt;="/>
+			<item value=" "/>
+			<item value="4%"/>
+			<item value="7%"/>
+			<item value="7.14%"/>
+			<item value="8%"/>
+			<item value="9%"/>
+			<item value="14%"/>
+			<item value="去年"/>
+			<item value="前年"/>
+			<item value="今年"/>
+			<item value="zhiyuan"/>
+			<item value="风险评估"/>
+			<item value="   "/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="328" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1410" key="DIALOG_X_ORIGIN"/>
+		<item value="214" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

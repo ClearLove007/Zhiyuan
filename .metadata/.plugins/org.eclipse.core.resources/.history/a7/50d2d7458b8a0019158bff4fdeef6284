@@ -1,0 +1,11 @@
+package zhiyuan.model;
+
+public class LiKe1 {
+	private int id;
+	private int pid;
+	private String name;
+	private int avercore;
+	private int xiancha1;
+	private int weici1;
+	private double xishu1e;
+}

@@ -1,0 +1,28 @@
+package zhiyuan.model;
+
+public class Result {
+	
+	//招生人数，增减变化，专业分析
+	private int count;
+	private int change;
+	private String hard;
+	
+	//院校代码，院校名称
+	private int pid;
+	private String name;
+	
+	//今年的线差，去年的线差，四年平均线差
+	private int xiancha1;
+	private int xiancha2;
+	private int averxiancha;
+	
+	//今年的系数，去年的系数，四年平均系数
+	private double xishu1;
+	private double xishu2;
+	private double averxishu;
+	
+	//今年的位次，去年的位次，四年平均位次
+	private int weici1;
+	private int weici2;
+	private int averweici;
+}

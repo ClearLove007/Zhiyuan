@@ -1,0 +1,40 @@
+package zhiyuan.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import zhiyuan.mapper.LiKe1Mapper;
+import zhiyuan.model.LiKe1;
+import zhiyuan.model.Result;
+import zhiyuan.service.LiKe1Service;
+
+@Service
+public class LiKe1ServiceImpl implements LiKe1Service {
+
+	@Autowired
+	private LiKe1Mapper liKe1Mapper;
+	
+	@Override
+	public List<LiKe1> findAll() {
+		// TODO 自动生成的方法存根
+		return liKe1Mapper.findAll();
+	}
+
+	@Override
+	public List<Result> findLiKe1School(int xiancha, int weici, double xishu) {
+		// TODO 自动生成的方法存根
+		List<Result> list = liKe1Mapper.findLiKe1School(xiancha);
+		if(!list.isEmpty()) {
+			for(Result attribute : list) {
+				int i=1,j=1,k=1;
+				for(int l = 0; l < 4; l++) {
+					if(xiancha > attribute.getXiancha1()) {i++;};
+				}
+			}
+		}
+		return liKe1Mapper.findLiKe1School(xiancha);
+	}
+
+}

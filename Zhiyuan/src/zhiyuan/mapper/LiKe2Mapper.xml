@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zhiyuan.mapper.LiKe2Mapper">
+
+	<!-- 查询所有理科一本学校 -->
+	<select id="findAll" resultType="LiKe1">
+		select * from like2
+	</select>
+
+	<!-- 查询符合条件的理科一本学校 -->
+	<select id="findLiKe2School" resultType="Result">
+		select count,`change`,hard,pid,name,xiancha1,xiancha2,averxiancha,xishu1,xishu2,averxishu,weici1,weici2,averweici,xiancha3,xiancha4,xishu3,xishu4,weici3,weici4 
+		from like2 
+		where averxiancha &lt; (#{xiancha}) and averxiancha &gt; (#{xiancha}-35)
+		order by averxiancha DESC
+	</select>
+	
+</mapper>

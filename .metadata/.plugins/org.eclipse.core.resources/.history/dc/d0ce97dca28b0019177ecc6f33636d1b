@@ -1,0 +1,82 @@
+package zhiyuan.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import zhiyuan.mapper.LiKe1Mapper;
+import zhiyuan.model.LiKe1;
+import zhiyuan.model.Result;
+import zhiyuan.service.LiKe1Service;
+
+@Service
+public class LiKe1ServiceImpl implements LiKe1Service {
+
+	@Autowired
+	private LiKe1Mapper liKe1Mapper;
+	
+	@Override
+	public List<LiKe1> findAll() {
+		// TODO 自动生成的方法存根
+		return liKe1Mapper.findAll();
+	}
+
+	@Override
+	public List<Result> findLiKe1School(int xiancha, int weici, double xishu) {
+		// TODO 自动生成的方法存根
+		List<Result> list = liKe1Mapper.findLiKe1School(xiancha);
+		if(!list.isEmpty()) {
+			for(Result attribute : list) {
+				int i=1,j=1,k=1;
+
+					if(attribute.getXiancha1()!=0 && xiancha > attribute.getXiancha1()) {
+						i++;
+					}
+					if(attribute.getXiancha2()!=0 && xiancha > attribute.getXiancha2()) {
+						i++;
+					}
+					if(attribute.getXiancha3()!=0 && xiancha > attribute.getXiancha3()) {
+						i++;
+					}
+					if(attribute.getXiancha4()!=0 && xiancha > attribute.getXiancha4()) {
+						i++;
+					}
+					attribute.setXiancha(i);
+				
+				
+					if(weici < attribute.getWeici1()) {
+						j++;
+					}
+					if(weici < attribute.getWeici2()) {
+						j++;
+					}
+					if(weici < attribute.getWeici3()) {
+						j++;
+					}
+					if(weici < attribute.getWeici4()) {
+						j++;
+					}
+					attribute.setWeici(j);
+				
+				
+					if(weici > attribute.getXishu1()) {
+						k++;
+					}
+					if(weici > attribute.getXishu2()) {
+						k++;
+					}
+					if(weici > attribute.getXishu3()) {
+						k++;
+					}
+					if(weici > attribute.getXishu4()) {
+						k++;
+					}
+					attribute.setXishu(k);
+				
+			}
+		}
+		return list;
+	}
+
+}
